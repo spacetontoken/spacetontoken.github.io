@@ -1737,12 +1737,12 @@ body::after {
 }
 
 .roadmap {
-	padding: 0px 0px 0px 0px;
+	padding: 300px 0px 0px 0px;
 }
 .roadmap .block-title {
 	margin: 0px 0px 150px 0px;
 }
-@media (max-width: 820px) {
+@media (max-width: 1360px) {
 	.roadmap .block-title {
 		margin: 0px 0px 70px 0px;
 	}
@@ -2079,7 +2079,7 @@ body::after {
 }
 .roadmap-item__list li {
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 18px;
 	line-height: 140%;
 	color: #000000;
 	margin: 0px 0px 10px 0px;
@@ -2089,7 +2089,7 @@ body::after {
 }
 @media (max-width: 100%;) {
 	.roadmap-item__list li {
-		font-size: 18px;
+		font-size: 12px;
 	}
 }
 
