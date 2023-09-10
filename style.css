@@ -215,7 +215,7 @@ body.ie ._ibg img {
 .block-title .title span:nth-child(2) {
 	margin: -7px 0px 0px 0px;
 	left: 140px;
-	color: #3DD467;
+	color: transparent;
 }
 .block-title .title span:nth-child(2)::before {
 	background: #000;
