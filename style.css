@@ -1989,7 +1989,7 @@ body::after {
 	}
 }
 @media (max-width: 700px) {
-	.roadmap-item:nth-child(4) {
+	.roadmap-item:nth-child(8) {
 		-webkit-box-flex: 0;
 		    -ms-flex: 0 0 100%;
 		        flex: 0 0 100%;
