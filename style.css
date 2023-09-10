@@ -1737,7 +1737,7 @@ body::after {
 }
 
 .roadmap {
-	padding: 300px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 .roadmap .block-title {
 	margin: 0px 0px 150px 0px;
