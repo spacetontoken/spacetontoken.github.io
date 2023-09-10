@@ -1881,8 +1881,8 @@ body::after {
 }
 .roadmap-item:nth-child(4) {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 448px;
-	        flex: 0 1 448px;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
 	top: 100px;
 }
 .roadmap-item:nth-child(4)::after {
@@ -1892,7 +1892,7 @@ body::after {
 	.roadmap-item:nth-child(4) {
 		-webkit-box-flex: 0;
 		    -ms-flex: 0 1 40%;
-		        flex: 0 1 40%px;
+		        flex: 0 1 40%;
 	}
 	.roadmap-item {
 	padding: 60px 40px 50px 40px;
@@ -1900,8 +1900,8 @@ body::after {
 }
 .roadmap-item:nth-child(5) {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 448px;
-	        flex: 0 1 448px;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
 }
 .roadmap-item:nth-child(5)::after {
 	background: #000;
@@ -1974,8 +1974,8 @@ body::after {
 }
 .roadmap-item:nth-child(8) {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 448px;
-	        flex: 0 1 448px;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
 	top: 100px;
 }
 .roadmap-item:nth-child(8)::after {
