@@ -96,7 +96,8 @@ html.lock, body._lock {
 	    touch-action: none;
 }
 
-body {
+body {	background: #00000;
+
 }
 
 ._ibg {
