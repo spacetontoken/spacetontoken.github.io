@@ -867,7 +867,7 @@ body::after {
 .hero-title__star2 img {
 	width: 100%;
 }
-@media (max-width: 1360px) {
+@media (max-width: 1160px) {
 	.hero-title__star2 {
 		right: calc(-60px + -171 * ((100vw - 320px) / 1600));
 		width: calc(40px + 80 * ((100vw - 320px) / 1600));
