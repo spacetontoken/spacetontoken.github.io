@@ -1881,12 +1881,18 @@ body::after {
 }
 .roadmap-item:nth-child(4) {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 448px;
-	        flex: 0 1 448px;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
 	top: 100px;
 }
-.roadmap-item:nth-child(4)::after {
+.roadmap-item:nth-child(4)::before {
 	background: #3DD567;
+}
+.roadmap-item:nth-child(4)::after {
+	background: #fff;
+}
+.roadmap-item:nth-child(4) .roadmap-item__list li {
+	color: #fff;
 }
 @media (max-width: 1024px) {
 	.roadmap-item:nth-child(4) {
@@ -1897,6 +1903,104 @@ body::after {
 }
 @media (max-width: 700px) {
 	.roadmap-item:nth-child(4) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+		top: 0;
+	}
+}
+.roadmap-item:nth-child(5) {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
+}
+.roadmap-item:nth-child(5)::after {
+	background: #fff;
+}
+@media (max-width: 1024px) {
+	.roadmap-item:nth-child(5) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%;
+	}
+}
+@media (max-width: 700px) {
+	.roadmap-item:nth-child(5) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+	}
+}
+.roadmap-item:nth-child(6) {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
+	top: 100px;
+}
+.roadmap-item:nth-child(6)::before {
+	background: #3DD567;
+}
+.roadmap-item:nth-child(6)::after {
+	background: #fff;
+}
+.roadmap-item:nth-child(6) .roadmap-item__list li {
+	color: #fff;
+}
+@media (max-width: 1024px) {
+	.roadmap-item:nth-child(6) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%;
+	}
+}
+@media (max-width: 700px) {
+	.roadmap-item:nth-child(6) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+		top: 0;
+	}
+}
+.roadmap-item:nth-child(7) {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 364px;
+	        flex: 0 1 364px;
+}
+.roadmap-item:nth-child(7)::after {
+	background: #fff;
+}
+@media (max-width: 1024px) {
+	.roadmap-item:nth-child(7) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%;
+	}
+}
+@media (max-width: 700px) {
+	.roadmap-item:nth-child(7) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+	}
+}
+.roadmap-item:nth-child(8) {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 448px;
+	        flex: 0 1 448px;
+	top: 100px;
+}
+.roadmap-item:nth-child(8)::after {
+	background: #3DD567;
+}
+@media (max-width: 1024px) {
+	.roadmap-item:nth-child(8) {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%;
+	}
+}
+@media (max-width: 700px) {
+	.roadmap-item:nth-child(8) {
 		-webkit-box-flex: 0;
 		    -ms-flex: 0 0 100%;
 		        flex: 0 0 100%;
