@@ -97,7 +97,7 @@ html.lock, body._lock {
 }
 
 body {
-	background: none;
+	background: #FAD99B;
 }
 
 ._ibg {
@@ -297,7 +297,7 @@ body.ie ._ibg img {
 }
 
 .btn_tr {
-	background: #3DD467;
+	background: none;
 	border: 5px solid #FFFFFF;
 }
 @media (max-width: 820px) {
