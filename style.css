@@ -2058,7 +2058,7 @@ body::after {
 	left: -30px;
 	display: inline-block;
 	font-weight: 900;
-	font-size: 22px;
+	font-size: 18px;
 	color: #000000;
 	padding: 20px 30px;
 	background: #FFFFFF;
@@ -2067,7 +2067,7 @@ body::after {
 }
 @media (max-width: 100%;) {
 	.roadmap-item__title {
-		font-size: 22px;
+		font-size: 14px;
 		border: 3px solid #000000;
 		padding: 15px 20px;
 		border-radius: 16px;
