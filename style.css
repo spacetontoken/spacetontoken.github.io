@@ -297,7 +297,7 @@ body.ie ._ibg img {
 }
 
 .btn_tr {
-	background: none;
+	background: transparent;
 	border: 5px solid #FFFFFF;
 }
 @media (max-width: 820px) {
