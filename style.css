@@ -1891,8 +1891,8 @@ body::after {
 @media (max-width: 1024px) {
 	.roadmap-item:nth-child(4) {
 		-webkit-box-flex: 0;
-		    -ms-flex: 0 1 448px;
-		        flex: 0 1 448px;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%px;
 	}
 	.roadmap-item {
 	padding: 60px 40px 50px 40px;
