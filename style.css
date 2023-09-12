@@ -1564,8 +1564,8 @@ body::after {
 @media (max-width: 480px) {
 	.tokenomics__values div {
 		-webkit-box-flex: 0;
-		    -ms-flex: 0 0 50%;
-		        flex: 0 0 50%;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
 	}
 }
 .tokenomics__values span {
