@@ -1587,7 +1587,7 @@ body::after {
 }
 .tokenomics__values p {
 	font-weight: 600;
-		width: 230px;
+		width: 350px;
 		height: 45px;	
 	font-size: 20px;
 	line-height: 1.2;
@@ -1595,7 +1595,7 @@ body::after {
 }
 @media (max-width: 820px) {
 	.tokenomics__values p {
-		width: 220px;
+		width: 340px;
 		height: 40px;		
 		font-size: 16px;
 	}
