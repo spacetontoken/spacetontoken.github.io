@@ -1732,7 +1732,7 @@ body::after {
 	-o-object-position: center;
 	   object-position: center;
 }
-@media (max-width: 840px) {
+@media (max-width: 150px) {
 	.overview__video {
 		border: 3px solid #000;
 	}
