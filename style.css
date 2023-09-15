@@ -1715,8 +1715,8 @@ body::after {
 }
 
 .overview__video {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	display: block;
 	background: #FFFFFF;
 	padding: 0px 0px 53% 0px;
@@ -1732,7 +1732,7 @@ body::after {
 	-o-object-position: center;
 	   object-position: center;
 }
-@media (max-width: 150px) {
+@media (max-width: 100px; max-height: 100px) {
 	.overview__video {
 		border: 3px solid #000;
 	}
