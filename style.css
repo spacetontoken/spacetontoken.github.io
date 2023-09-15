@@ -1715,7 +1715,8 @@ body::after {
 }
 
 .overview__video {
-	width: 20%;
+	width: 150px;
+	height: 150px;
 	display: block;
 	background: #FFFFFF;
 	padding: 0px 0px 53% 0px;
