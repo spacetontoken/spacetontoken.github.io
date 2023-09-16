@@ -1660,7 +1660,7 @@ body::after {
 }
 
 .overview {
-	padding: 400px 0px 0px 0px;
+	padding: 200px 0px 0px 0px;
 }
 @media (max-width: 1360px) {
 	.overview {
@@ -1720,7 +1720,7 @@ body::after {
 	background: #FFFFFF;
 	padding: 0px 0px 23% 0px;
 	border: 3px solid #000;
-	border-radius: 12px;
+	border-radius: 120px;
 	overflow: hidden;
 }
 .overview__video img {
