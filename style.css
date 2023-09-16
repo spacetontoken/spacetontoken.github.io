@@ -1718,7 +1718,7 @@ body::after {
 	width: 36%;
 	display: block;
 	background: #FFFFFF;
-	padding: 0px 0px 23% 0px;
+	padding: 100px 0px 23% 0px;
 	border: 3px solid #000;
 	border-radius: 12px;
 	overflow: hidden;
