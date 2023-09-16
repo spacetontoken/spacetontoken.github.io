@@ -1718,7 +1718,7 @@ body::after {
 	width: 36%;
 	display: block;
 	background: #FFFFFF;
-	padding: 200px 0px 23% 0px;
+	padding: 0px 0px 23% 0px;
 	border: 3px solid #FFFFFF;
 	border-radius: 12px;
 	overflow: hidden;
@@ -1728,7 +1728,7 @@ body::after {
 	height: 100%;
 	-o-object-fit: cover;
 	   object-fit: cover;
-	-o-object-position: center;
+	-o-object-position: left;
 	   object-position: center;
 }
 @media (max-width: 100px) {
