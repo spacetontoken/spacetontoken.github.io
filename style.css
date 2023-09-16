@@ -1101,8 +1101,8 @@ body::after {
 
 .whois__img {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 565px;
-	        flex: 0 1 565px;
+	    -ms-flex: 0 1 265px;
+	        flex: 0 1 265px;
 	position: relative;
 	z-index: 2;
 }
