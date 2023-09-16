@@ -1120,7 +1120,7 @@ body::after {
 		    -ms-flex: 0;
 		        flex: 0;
 		margin: 0 auto;
-		width: 250px;
+		width: 100px;
 	}
 }
 
