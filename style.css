@@ -1715,10 +1715,10 @@ body::after {
 }
 
 .overview__video {
-	width: -36%;
+	width: -36px;
 	display: block;
 	background: #FFFFFF;
-	padding: 0px 0px -23% 0px;
+	padding: 0px 0px -23px 0px;
 	border: 3px solid #FFFFFF;
 	border-radius: 12px;
 	overflow: hidden;
