@@ -1196,7 +1196,7 @@ body::after {
 }
 
 .whois__block_2 {
-	margin: 100px 0px 0px 50px;
+	margin: 50px 0px 0px 50px;
 	-ms-transform: rotate(8deg);
 	-webkit-transform: rotate(8deg);
 	transform: rotate(8deg);
@@ -1212,7 +1212,7 @@ body::after {
 @media (max-width: 820px) {
 	.whois__block_2 .whois__text::before {
 		top: 10px;
-		left: -10px;
+		left: -30px;
 	}
 }
 .whois__block_2 .whois__text::after {
