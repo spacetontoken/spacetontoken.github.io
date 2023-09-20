@@ -1247,7 +1247,7 @@ body::after {
 		margin: 50px 0px 0px 30px;
 	}
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 	.whois__block_2 {
 		-ms-transform: rotate(6deg);
 		-webkit-transform: rotate(6deg);
