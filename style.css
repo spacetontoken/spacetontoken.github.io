@@ -2237,6 +2237,30 @@ body::after {
 		top: 0;
 	}
 }
+.partners__item:nth-child(5) {
+	top: -200px;
+}
+@media (max-width: 1360px) {
+	.partners__item:nth-child(5) {
+		top: 0;
+	}
+}
+.partners__item:nth-child(6) {
+	top: -250px;
+}
+@media (max-width: 1360px) {
+	.partners__item:nth-child(6) {
+		top: 0;
+	}
+}
+.partners__item:nth-child(7) {
+	top: -300px;
+}
+@media (max-width: 1360px) {
+	.partners__item:nth-child(7) {
+		top: 0;
+	}
+}
 @media (max-width: 480px) {
 	.partners__item {
 		-webkit-box-flex: 0;
