@@ -904,11 +904,11 @@ body::after {
 	width: 100%;
 }
 .hero__buttons > *:not(:last-child) {
-	margin: 0px 30px 0px 0px;
+	margin: 0px 10px 0px 0px;
 }
 @media (max-width: 600px) {
 	.hero__buttons > *:not(:last-child) {
-		margin: 0px 0px 30px 0px;
+		margin: 0px 0px 10px 0px;
 	}
 }
 .hero__buttons .btn {
@@ -921,7 +921,7 @@ body::after {
 }
 @media (max-width: 600px) {
 	.hero__buttons .btn {
-		width: 160px;
+		width: 260px;
 	}
 }
 @media (max-width: 1360px) {
