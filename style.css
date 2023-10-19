@@ -1719,7 +1719,7 @@ body::after {
 	display: block;
 
 	padding: 0px 0px 43px 0px;
-	border: 3px solid #FFFFFF;
+
 	border-radius: 1px;
 	overflow: hidden;
 }
