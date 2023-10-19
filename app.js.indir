@@ -356,6 +356,10 @@ class Popup {
          // Для сторонних объектов
          fixElementSelector: '[data-lp]', // Атрибут для элементов с левым паддингом (которые fixed)
          // Для объекта попапа
+linkAttribute: 'data-popup-link', // Атрибут для кода youtube
+         linkPlaceAttribute: 'data-popup-link-place', // Атрибут для вставки ролика youtube
+
+
          youtubeAttribute: 'data-popup-youtube', // Атрибут для кода youtube
          youtubePlaceAttribute: 'data-popup-youtube-place', // Атрибут для вставки ролика youtube
          setAutoplayYoutube: true,
@@ -382,6 +386,13 @@ class Popup {
          },
       }
       this.youTubeCode;
+      this.isOpen = false;
+      // Текущее окно
+      this.targetOpen = {
+         selector: false,
+         element: false,
+      }
+      this.linkCode;
       this.isOpen = false;
       // Текущее окно
       this.targetOpen = {
@@ -562,17 +573,18 @@ class Popup {
                   const youtubePlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(`${this.options.youtubePlaceAttribute}`, '');
                }
                this.targetOpen.element.querySelector(`[${this.options.youtubePlaceAttribute}]`).appendChild(iframe);
-        
+}
+if (this.targetOpen.element) {
             // Link
             if (this.linkCode) {
                const codelink = this.linkCode;
                const urllink = https://${codelink}
-               const iframe2 = document.createElement('iframe');
-               iframe.setAttribute2('allowfullscreen', '');
+               const iframe = document.createElement('iframe');
+               iframe.setAttribute('allowfullscreen', '');
 
                
                
-               iframe.setAttribute2('src', urllink);
+               iframe.setAttribute('src', urllink);
 
                if (!this.targetOpen.element.querySelector2([${this.options.linkPlaceAttribute}])) {
                   const linkPlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(${this.options.linkPlaceAttribute}, '');
