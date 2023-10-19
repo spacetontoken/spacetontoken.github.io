@@ -1715,11 +1715,8 @@ body::after {
 }
 
 .overview__video {
-		-webkit-box-flex: 0;
-	    -ms-flex: 0 1 235px;
+		    -ms-flex: 0 1 235px;
 	        flex: 0 1 235px;
-	position: relative;
-	z-index: 2;
 }
 .overview__video img {
 	width: 100%;
