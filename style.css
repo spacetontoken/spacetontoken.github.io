@@ -1715,10 +1715,10 @@ body::after {
 }
 
 .overview__video {
-	width: 60px;
+	width: 235px;
 	display: block;
 
-	padding: 0px 0px 60px 0px;
+	padding: 0px 0px 235px 0px;
 
 
 	overflow: hidden;
