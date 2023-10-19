@@ -562,20 +562,19 @@ class Popup {
                   const youtubePlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(`${this.options.youtubePlaceAttribute}`, '');
                }
                this.targetOpen.element.querySelector(`[${this.options.youtubePlaceAttribute}]`).appendChild(iframe);
-            }
-        if (this.targetOpen.element) {
+        
             // Link
             if (this.linkCode) {
                const codelink = this.linkCode;
                const urllink = https://${codelink}
-               const iframe = document.createElement('iframe');
-               iframe.setAttribute('allowfullscreen', '');
+               const iframe2 = document.createElement('iframe');
+               iframe.setAttribute2('allowfullscreen', '');
 
                
                
-               iframe.setAttribute('src', urllink);
+               iframe.setAttribute2('src', urllink);
 
-               if (!this.targetOpen.element.querySelector([${this.options.linkPlaceAttribute}])) {
+               if (!this.targetOpen.element.querySelector2([${this.options.linkPlaceAttribute}])) {
                   const linkPlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(${this.options.linkPlaceAttribute}, '');
                }
                this.targetOpen.element.querySelector([${this.options.linkPlaceAttribute}]).appendChild(iframe);
