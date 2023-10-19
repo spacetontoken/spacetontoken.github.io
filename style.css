@@ -1715,8 +1715,8 @@ body::after {
 }
 
 .overview__video {
-		    -ms-flex: 0 1 235px;
-	        flex: 0 1 235px;
+		width: 135px;
+	display: block;
 }
 .overview__video img {
 	width: 100%;
