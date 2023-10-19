@@ -1715,12 +1715,12 @@ body::after {
 }
 
 .overview__video {
-	width: 56px;
+	width: 60px;
 	display: block;
 
-	padding: 0px 0px 43px 0px;
+	padding: 0px 0px 60px 0px;
 
-	border-radius: 1px;
+
 	overflow: hidden;
 }
 .overview__video img {
