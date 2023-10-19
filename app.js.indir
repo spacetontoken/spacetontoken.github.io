@@ -563,6 +563,24 @@ class Popup {
                }
                this.targetOpen.element.querySelector(`[${this.options.youtubePlaceAttribute}]`).appendChild(iframe);
             }
+        if (this.targetOpen.element) {
+            // Link
+            if (this.linkCode) {
+               const codelink = this.linkCode;
+               const urllink = https://${codelink}
+               const iframe = document.createElement('iframe');
+               iframe.setAttribute('allowfullscreen', '');
+
+               
+               
+               iframe.setAttribute('src', urllink);
+
+               if (!this.targetOpen.element.querySelector([${this.options.linkPlaceAttribute}])) {
+                  const linkPlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(${this.options.linkPlaceAttribute}, '');
+               }
+               this.targetOpen.element.querySelector([${this.options.linkPlaceAttribute}]).appendChild(iframe);
+            }
+
             if (this.options.hashSettings.location) {
                // Получение хэша и его выставление 
                this._getHash();
