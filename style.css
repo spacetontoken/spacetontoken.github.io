@@ -1715,9 +1715,9 @@ body::after {
 }
 
 .overview__video {
-        width: 125px;
+        width: 100%;
 	display: block;
-	padding: 0px 0px 125px 0px;
+	padding: 0px 0px 100%px 0px;
 	overflow: hidden;
 }
 .overview__video img {
