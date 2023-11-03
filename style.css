@@ -1263,7 +1263,7 @@ body::after {
 	    -ms-flex: 0 1 205px;
 	        flex: 0 1 205px;
 }
-@media (max-width: 480px) {
+@media (max-width: 205px) {
 	.whois__block_3 .whois__img {
 		-webkit-box-flex: 0;
 		    -ms-flex: 0;
