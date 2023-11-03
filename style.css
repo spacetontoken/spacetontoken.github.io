@@ -1715,14 +1715,14 @@ body::after {
 }
 
 .overview__video {
-        width: 145px;
+        width: 136px;
 	display: block;
-	padding: 0px 0px 58px 0px;
+	padding: 0px 0px 51px 0px;
 	overflow: hidden;
 }
 .overview__video img {
-	width: 140px;
-	height: 54px;
+	width: 136px;
+	height: 51px;
 	-o-object-fit: cover;
 	   object-fit: cover;
 	-o-object-position: left;
