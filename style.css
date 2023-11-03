@@ -1717,12 +1717,12 @@ body::after {
 .overview__video {
         width: 145px;
 	display: block;
-	padding: 0px 0px 57px 0px;
+	padding: 0px 0px 58px 0px;
 	overflow: hidden;
 }
 .overview__video img {
 	width: 140px;
-	height: 52px;
+	height: 54px;
 	-o-object-fit: cover;
 	   object-fit: cover;
 	-o-object-position: left;
