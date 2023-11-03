@@ -1260,15 +1260,15 @@ body::after {
 }
 .whois__block_3 .whois__img {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 235px;
-	        flex: 0 1 235px;
+	    -ms-flex: 0 1 205px;
+	        flex: 0 1 205px;
 }
 @media (max-width: 480px) {
 	.whois__block_3 .whois__img {
 		-webkit-box-flex: 0;
 		    -ms-flex: 0;
 		        flex: 0;
-		width: 235px;
+		width: 205px;
 	}
 }
 .whois__block_3 .whois__text {
