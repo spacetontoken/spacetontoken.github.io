@@ -2459,14 +2459,14 @@ body::after {
 	position: absolute;
 	top: 100%;
 	left: 10px;
-	width: 290px;
+	width: 100%;
 }
 .follow__face1 img {
 	width: 100%;
 }
 @media (max-width: 1360px) {
 	.follow__face1 {
-		width: calc(100px + 250 * ((100vw - 320px) / 1600));
+		width: calc(100px + 280 * ((100vw - 320px) / 1600));
 	}
 }
 
@@ -2481,6 +2481,6 @@ body::after {
 }
 @media (max-width: 1360px) {
 	.follow__face2 {
-		width: calc(100px + 350 * ((100vw - 320px) / 1600));
+		width: calc(100px + 380 * ((100vw - 320px) / 1600));
 	}
 }
