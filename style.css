@@ -2462,7 +2462,7 @@ body::after {
 	width: 100%;
 }
 .follow__face1 img {
-	width: 100%;
+	width: 90%;
 }
 @media (max-width: 1360px) {
 	.follow__face1 {
