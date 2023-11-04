@@ -2458,11 +2458,11 @@ body::after {
 .follow__face1 {
 	position: absolute;
 	top: 100%;
-	left: 10px;
+	left: 100px;
 	width: 100%;
 }
 .follow__face1 img {
-	width: 90%;
+	width: 100%;
 }
 @media (max-width: 1360px) {
 	.follow__face1 {
