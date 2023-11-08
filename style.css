@@ -1715,9 +1715,9 @@ body::after {
 }
 
 .overview__video {
-        width: 100px;
+        width: 50px;
 	display: block;
-	padding: 0px 0px 100px 0px;
+	padding: 0px 0px 50px 0px;
 	overflow: hidden;
 }
 .overview__video img {
@@ -2473,7 +2473,7 @@ body::after {
 .follow__face2 {
 	position: absolute;
 	top: 97%;
-	right: -50px;
+	right: -40px;
 	width: 100%;
 }
 .follow__face2 img {
