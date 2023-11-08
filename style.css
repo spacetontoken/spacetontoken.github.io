@@ -1204,7 +1204,7 @@ body::after {
 	color: #000;
 }
 .whois__block_2 .whois__text::before {
-	background: #5ED46E;
+	background: #000;
 	top: 20px;
 	left: -20px;
 }
