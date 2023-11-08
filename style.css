@@ -2457,8 +2457,8 @@ body::after {
 
 .follow__face1 {
 	position: absolute;
-	top: 97%;
-	left: 20px;
+	top: 99%;
+	left: 25px;
 	width: 100%;
 }
 .follow__face1 img {
@@ -2472,8 +2472,8 @@ body::after {
 
 .follow__face2 {
 	position: absolute;
-	top: 97%;
-	right: -40px;
+	top: 99%;
+	right: -45px;
 	width: 100%;
 }
 .follow__face2 img {
