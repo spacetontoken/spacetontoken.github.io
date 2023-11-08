@@ -1100,8 +1100,8 @@ body::after {
 
 .whois__img {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 135px;
-	        flex: 0 1 135px;
+	    -ms-flex: 0 1 115px;
+	        flex: 0 1 115px;
 	position: relative;
 	z-index: 2;
 }
@@ -2457,7 +2457,7 @@ body::after {
 
 .follow__face1 {
 	position: absolute;
-	top: 97%;
+	top: 98%;
 	left: 35px;
 	width: 100%;
 }
@@ -2472,7 +2472,7 @@ body::after {
 
 .follow__face2 {
 	position: absolute;
-	top: 97%;
+	top: 98%;
 	right: -35px;
 	width: 100%;
 }
