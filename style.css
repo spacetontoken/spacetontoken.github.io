@@ -231,7 +231,7 @@ body.ie ._ibg img {
 }
 @media (max-width: 1440px) {
 	.block-title .title2 {
-		font-size: calc(16px + 10 * ((100vw - 320px) / 1600));
+		font-size: calc(26px + 20 * ((100vw - 320px) / 1600));
 	}
 }
 @media (max-width: 820px) {
