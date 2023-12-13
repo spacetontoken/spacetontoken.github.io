@@ -215,7 +215,7 @@ body.ie ._ibg img {
 }
 .block-title .title2 span:nth-child(2) {
 	margin: -7px 0px 0px 0px;
-	left: 140px;
+	left: 100px;
 	color: #3DD467;
 }
 .block-title .title2 span:nth-child(2)::before {
@@ -226,12 +226,12 @@ body.ie ._ibg img {
 }
 @media (max-width: 1440px) {
 	.block-title .title2 span:nth-child(2) {
-		left: calc(32px + 130 * ((100vw - 320px) / 1600));
+		left: calc(28px + 110 * ((100vw - 320px) / 1600));
 	}
 }
 @media (max-width: 1440px) {
 	.block-title .title2 {
-		font-size: calc(32px + 10 * ((100vw - 320px) / 1600));
+		font-size: calc(28px + 10 * ((100vw - 320px) / 1600));
 	}
 }
 @media (max-width: 820px) {
