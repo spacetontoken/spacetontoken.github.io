@@ -193,19 +193,19 @@ body.ie ._ibg img {
 	left: 5px;
 	width: 100%;
 	height: 100%;
-	border: 7px solid #000;
-	border-radius: 36px;
+	border: 5px solid #000;
+	border-radius: 26px;
 }
 .block-title .title2 span::after {
 	content: "";
 	position: absolute;
 	z-index: -1;
-	top: 0;
-	left: 0;
+	top: 5;
+	left: 5;
 	width: 100%;
 	height: 100%;
-	border: 7px solid #000000;
-	border-radius: 36px;
+	border: 5px solid #000000;
+	border-radius: 26px;
 }
 .block-title .title2 span:nth-child(1)::before {
 	background: #fff;
@@ -214,7 +214,7 @@ body.ie ._ibg img {
 	background: #000;
 }
 .block-title .title2 span:nth-child(2) {
-	margin: -7px 0px 0px 0px;
+	margin: -5px 0px 0px 0px;
 	left: 140px;
 	color: #3DD467;
 }
@@ -226,7 +226,7 @@ body.ie ._ibg img {
 }
 @media (max-width: 1440px) {
 	.block-title .title2 span:nth-child(2) {
-		left: calc(20px + 130 * ((100vw - 320px) / 1600));
+		left: calc(30px + 10 * ((100vw - 320px) / 1600));
 	}
 }
 @media (max-width: 1440px) {
