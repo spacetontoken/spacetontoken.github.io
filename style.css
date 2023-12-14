@@ -2466,7 +2466,7 @@ body::after {
 }
 @media (max-width: 1360px) {
 	.follow__face1 {
-		width: calc(100px + 280 * ((100vw - 320px) / 1600));
+		width: calc(100px + 180 * ((100vw - 320px) / 1600));
 	}
 }
 
@@ -2481,6 +2481,6 @@ body::after {
 }
 @media (max-width: 1360px) {
 	.follow__face2 {
-		width: calc(100px + 380 * ((100vw - 320px) / 1600));
+		width: calc(100px + 280 * ((100vw - 320px) / 1600));
 	}
 }
