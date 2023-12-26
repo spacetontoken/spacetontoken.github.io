@@ -797,7 +797,7 @@ body::after {
 	-webkit-box-align: start;
 	    -ms-flex-align: start;
 	        align-items: flex-start;
-	margin: 0px 0px 100px 0px;
+	margin: 0px 0px 10px 0px;
 	position: relative;
 }
 @media (max-width: 1360px) {
@@ -817,7 +817,7 @@ body::after {
 }
 
 .hero-title__head {
-	width: 250px;
+	width: 350px;
 	margin: 0px 0px 0px 50px;
 	-ms-transform: rotate(-7deg);
 	-webkit-transform: rotate(-7deg);
@@ -1037,10 +1037,10 @@ body::after {
 
 .whois {
 	margin: 5px 0px 0px 0px;
-	padding: 0px 0px 180px 0px;
+	padding: 0px 0px 80px 0px;
 }
 .whois .block-title {
-	margin: 0px 0px 100px -14%;
+	margin: 0px 0px 50px -14%;
 }
 .whois .block-title .title2 span:nth-child(1) {
 	color: #3DD567;
