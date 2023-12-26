@@ -749,11 +749,11 @@ body::after {
 	background:  no-repeat;
 	background-size: cover;
 	background-position: bottom;
-	padding: 0px 0px 250px 0px;
+	padding: 0px 0px 150px 0px;
 }
 @media (max-width: 480px) {
 	.hero {
-		padding: 0px 0px 30px 0px;
+		padding: 0px 0px 130px 0px;
 	}
 }
 
