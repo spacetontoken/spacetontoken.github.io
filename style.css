@@ -1243,7 +1243,7 @@ body::after {
 		-webkit-box-direction: reverse;
 		    -ms-flex-direction: column-reverse;
 		        flex-direction: column-reverse;
-		margin: 50px 0px 0px 30px;
+		margin: 10px 0px 0px 10px;
 	}
 }
 @media (max-width: 480px) {
