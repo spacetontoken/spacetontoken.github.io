@@ -1131,8 +1131,8 @@ body::after {
 	-ms-transform: rotate(-4deg);
 	-webkit-transform: rotate(-4deg);
 	transform: rotate(-4deg);
-	padding: 70px 50px;
-	margin: 0px 0px 0px -50px;
+	padding: 7px 5px;
+	margin: 0px 0px 0px -5px;
 }
 .whois__text p {
 	font-weight: 600;
