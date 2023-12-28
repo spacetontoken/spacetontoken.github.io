@@ -759,7 +759,7 @@ body::after {
 
 .hero__block {
 	max-width: 1067px;
-	margin: -140px 0 0 0;
+	margin: -40px 0 0 0;
 	position: relative;
 	z-index: 2;
 	display: -webkit-box;
@@ -818,7 +818,7 @@ body::after {
 
 .hero-title__head {
 	width: 350px;
-	margin: 50px 0px -50px 50px;
+	margin: 0px 0px -10px 50px;
 	-ms-transform: rotate(-7deg);
 	-webkit-transform: rotate(-7deg);
 	transform: rotate(-7deg);
