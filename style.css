@@ -807,12 +807,12 @@ body::after {
 }
 @media (max-width: 1360px) {
 	.hero__row {
-		margin: 0px 0px 180px 0px;
+		margin: 0px 0px 280px 0px;
 	}
 }
 @media (max-width: 480px) {
 	.hero__row {
-		margin: 0px 0px 75px 0px;
+		margin: 0px 0px 160px 0px;
 	}
 }
 
