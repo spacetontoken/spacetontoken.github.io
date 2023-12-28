@@ -818,7 +818,7 @@ body::after {
 
 .hero-title__head {
 	width: 350px;
-	margin: 0px 0px 0px 50px;
+	margin: 0px 0px 100px 50px;
 	-ms-transform: rotate(-7deg);
 	-webkit-transform: rotate(-7deg);
 	transform: rotate(-7deg);
