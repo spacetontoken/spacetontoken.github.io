@@ -1278,11 +1278,11 @@ body::after {
 	color: #000;
 }
 .whois__block_3 .whois__text::before {
-	background: #000;
+	background: #3DD567;
 }
 .whois__block_3 .whois__text::after {
 	background: #fff;
-	border: 5px solid #3DD567;
+	border: 5px solid #000;
 }
 @media (max-width: 820px) {
 	.whois__block_3 .whois__text::after {
