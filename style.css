@@ -1660,7 +1660,7 @@ body::after {
 }
 
 .overview {
-	padding: 100px 100px 50px 0px;
+	padding: 0px 0px 0px 0px;
 }
 @media (max-width: 1360px) {
 	.overview {
@@ -1668,7 +1668,7 @@ body::after {
 	}
 }
 .overview .block-title {
-	margin: 100px 100px 150px 0px;
+	margin: 0px 0px 0px 0px;
 	position: relative;
 }
 @media (max-width: 1360px) {
@@ -1678,7 +1678,7 @@ body::after {
 }
 @media (max-width: 820px) {
 	.overview .block-title {
-		margin: 0px 0px 70px 0px;
+		margin: 0px 0px 0px 0px;
 	}
 }
 .overview .title2 span:nth-child(1) {
