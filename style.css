@@ -759,7 +759,7 @@ body::after {
 
 .hero__block {
 	max-width: 1067px;
-	margin: -120px 0 0 0;
+	margin: -60px 0 0 0;
 	position: relative;
 	z-index: 2;
 	display: -webkit-box;
@@ -1037,7 +1037,7 @@ body::after {
 
 .whois {
 	margin: 5px 0px 0px 0px;
-	padding: 0px 0px 40px 0px;
+	padding: 0px 0px 20px 0px;
 }
 .whois .block-title {
 	margin: 0px 0px 25px -14%;
