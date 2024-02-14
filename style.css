@@ -1308,7 +1308,7 @@ body::after {
 }
 
 .tokenomics {
-	background: #0098ea;
+	background: transparent;
 	position: relative;
 	margin: 0px 0px 150px 0px;
 	padding: 50px 0px 0px 0px;
