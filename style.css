@@ -98,7 +98,11 @@ html.lock, body._lock {
 }
 
 body {
-background: url("https://themes.googleusercontent.com/image?id=1nCEFJnjbEM1e6XClO-Dh7L-U6FJQuxivkV20FpXYmkNyRA0vQIZPfjuIp6hcROwwArvQ") repeat;
+background: url("https://themes.googleusercontent.com/image?id=1nCEFJnjbEM1e6XClO-Dh7L-U6FJQuxivkV20FpXYmkNyRA0vQIZPfjuIp6hcROwwArvQ") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
 }
 
