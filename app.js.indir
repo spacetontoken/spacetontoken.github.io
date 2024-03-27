@@ -568,20 +568,6 @@ class Popup {
                if (!this.targetOpen.element.querySelector(`[${this.options.youtubePlaceAttribute}]`)) {
                   const youtubePlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(`${this.options.youtubePlaceAttribute}`, '');
                }
-            if (this.youTubeCode1) {
-               const codeVideo1 = this.youTubeCode;
-               const urlVideo1 = `${codeVideo1}`
-               const iframe = document.createElement('iframe');
-               iframe.setAttribute('allowfullscreen', '');
-
-               const autoplay = this.options.setAutoplayYoutube ? 'autoplay;' : '';
-               iframe.setAttribute('allow', `${autoplay}; encrypted-media`);
-
-               iframe.setAttribute('src', urlVideo1);
-
-               if (!this.targetOpen.element.querySelector(`[${this.options.youtubePlaceAttribute}]`)) {
-                  const youtubePlace = this.targetOpen.element.querySelector('.popup__text').setAttribute(`${this.options.youtubePlaceAttribute}`, '');
-               }
                this.targetOpen.element.querySelector(`[${this.options.youtubePlaceAttribute}]`).appendChild(iframe);
 }
             if (this.options.hashSettings.location) {
