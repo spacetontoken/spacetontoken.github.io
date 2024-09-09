@@ -1,26 +1,51 @@
-<iframe src="https://www.tonspace.id/" name="myIFrame" scrolling="auto" width="100%" height="100%" style="border: solid #000000;"></iframe>
-<link href="https://spacetontoken.github.io/style.css" rel="stylesheet"/>
+<script type="text/javascript">
 
-<div class="hero__block">
-						<div class="hero__row">
-							<div class="block-title">
-								<div class="hero-title__head">
-									<picture>
-										<img alt="" src="https://spacetontoken.github.io/oie_rTOj1zkWpkB5%20(1).png" />
-									</picture>
-								</div>
-								<div class="hero__title hero-title">
-								
-									<h1 class="title2">
-										<span>SPACETON</span>
-										<span>To The Space</span>
-										<span>Coming Soon</span>
-									</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hero__buttons">
-						<a class="btn btn_tr" href="https://t.me/spacetontoken" target="_blank">Telegram</a>
-						<a class="btn btn_tr" href="https://twitter.com/spacetontoken" target="_blank">Twitter</a>
-					</div>
+var protoUrl = "tg://resolve?domain=spacetonappbot&appname=game_gram";
+if (false) {
+  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+  var iframeEl = document.createElement('iframe');
+  iframeContEl.appendChild(iframeEl);
+  var pageHidden = false;
+  window.addEventListener('pagehide', function () {
+    pageHidden = true;
+  }, false);
+  window.addEventListener('blur', function () {
+    pageHidden = true;
+  }, false);
+  if (iframeEl !== null) {
+    iframeEl.src = protoUrl;
+  }
+  !false && setTimeout(function() {
+    if (!pageHidden) {
+      window.location = protoUrl;
+    }
+  }, 2000);
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = protoUrl;
+  }, 100);
+}
+
+var tme_bg = document.getElementById('tgme_background');
+if (tme_bg) {
+  TWallpaper.init(tme_bg);
+  TWallpaper.animate(true);
+  window.onfocus = function(){ TWallpaper.update(); };
+}
+document.body.classList.remove('no_transition');
+
+function toggleTheme(dark) {
+  document.documentElement.classList.toggle('theme_dark', dark);
+  window.Telegram && Telegram.setWidgetOptions({dark: dark});
+}
+if (window.matchMedia) {
+  var darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
+  toggleTheme(darkMedia.matches);
+  darkMedia.addListener(function(e) {
+    toggleTheme(e.matches);
+  });
+}
+
+    
+    </script>
