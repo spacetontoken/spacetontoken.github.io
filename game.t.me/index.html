@@ -1,6 +1,6 @@
 <script type="text/javascript">
 
-var protoUrl = "tg://resolve?domain=spacetonappbot&appname=game_t_me";
+var protoUrl = "tg:resolve?domain=spacetonappbot&appname=game_t_me";
 if (false) {
   var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
   var iframeEl = document.createElement('iframe');
@@ -19,12 +19,12 @@ if (false) {
     if (!pageHidden) {
       window.location = protoUrl;
     }
-  }, 200);
+  }, 2000);
 }
 else if (protoUrl) {
   setTimeout(function() {
     window.location = protoUrl;
-  }, 10);
+  }, 100);
 }
 
 var tme_bg = document.getElementById('tgme_background');
@@ -49,4 +49,3 @@ if (window.matchMedia) {
 
     
     </script>
-
